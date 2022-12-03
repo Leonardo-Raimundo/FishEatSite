@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(/img/bg.png);
+    width: 100%;
+    background-repeat:round;
+    
+}
+.nome-jogo{
+    background-color: #48a2d6;
+    text-align: center;
+   padding: 2px;
+}
+.menu{
+    background-color: #48a2d6;
+    height: 80px;
+    color: azure;
+}  
+.menu li{
+    float: right;
+    display: inline;
+    padding: 2px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.capa1{
+    display: inline;
+    float: right;
+    width: 30%;
+    height: 40%;
+}
+.capa2{
+    display: inline;
+    width: 30%;
+    height: 50%;
+    float: right;
+}
+.capa3{
+    display: inline;
+    width: 30%;
+    height: 50%;
+}
+#intro{
+    margin: 10px;
+    font-size: 28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.caixa1{
+    text-align: justify;
+}
+.redes{
+    display: inline;
+    
+}
+.rodape{
+    background-color: #48a2d6;
+    height: 100px;
+}
+.rodape ul{
+    display: inline;
+    float: right;
+    list-style: none;
+    padding: 4px;
+    margin: 5px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.rodape ul li{
+    color: azure;
+}
+.textojogo{
+    border: 2px solid #48a2d6;
+    background-color: azure;
+    padding: 4px;
+    width: 60%;
+    float:inline-end;
+    text-align: justify;
+}
+.textojogo2{
+    border: 2px solid #48a2d6;
+    background-color: azure;
+    padding: 4px;
+    max-width: 60%;
+    float:inline-start;
+    text-align: justify;
+}
